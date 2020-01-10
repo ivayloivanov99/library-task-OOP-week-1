@@ -6,9 +6,9 @@ public class LibraryProject {
 		Library myLibrary = new Library();
 
 		myLibrary.insertNewBook("Другият", "Стивън Кинг", "Плеяда","9789544093976", 2019);
-		System.out.println("ime: " + myLibrary.getLibraryList().get(0).getBookName());
+		System.out.println("Име: " + myLibrary.getLibraryList().get(0).getBookName());
 		myLibrary.insertNewBook("Доктор Сън", "Стивън Кинг", "Плеяда","9789544093440", 2014);
-		System.out.println("ime: " + myLibrary.getLibraryList().get(1).getBookName());
+		System.out.println("Име: " + myLibrary.getLibraryList().get(1).getBookName());
 
 
 	}
